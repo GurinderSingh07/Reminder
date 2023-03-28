@@ -11,6 +11,7 @@
 		CFA33A5D29D3A0EB009993E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA33A5C29D3A0EB009993E6 /* ContentView.swift */; };
 		CFA33A5F29D3A0EC009993E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA33A5E29D3A0EC009993E6 /* Assets.xcassets */; };
 		CFA33A6229D3A0EC009993E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA33A6129D3A0EC009993E6 /* Preview Assets.xcassets */; };
+		CFA33A6A29D3A7AD009993E6 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA33A6929D3A7AD009993E6 /* CoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CFA33A5C29D3A0EB009993E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFA33A5E29D3A0EC009993E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA33A6129D3A0EC009993E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA33A6929D3A7AD009993E6 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CFA33A5929D3A0EB009993E6 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				CFA33A6829D3A791009993E6 /* Providers */,
 				CFA33A5A29D3A0EB009993E6 /* ReminderApp.swift */,
 				CFA33A5C29D3A0EB009993E6 /* ContentView.swift */,
 				CFA33A5E29D3A0EC009993E6 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CFA33A6129D3A0EC009993E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFA33A6829D3A791009993E6 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				CFA33A6929D3A7AD009993E6 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				CFA33A5D29D3A0EB009993E6 /* ContentView.swift in Sources */,
 				CFA33A5B29D3A0EB009993E6 /* ReminderApp.swift in Sources */,
+				CFA33A6A29D3A7AD009993E6 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
