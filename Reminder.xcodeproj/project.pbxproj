@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF5F1EC529DBBF5C00DBD005 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF5F1EC329DBBF5C00DBD005 /* ReminderModel.xcdatamodeld */; };
+		CF5F1EC829DBC47100DBD005 /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F1EC729DBC47100DBD005 /* MyList+CoreDataClass.swift */; };
+		CF5F1ECA29DBC4EE00DBD005 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F1EC929DBC4EE00DBD005 /* MyList+CoreDataProperties.swift */; };
 		CFA33A5B29D3A0EB009993E6 /* ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA33A5A29D3A0EB009993E6 /* ReminderApp.swift */; };
 		CFA33A5D29D3A0EB009993E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA33A5C29D3A0EB009993E6 /* ContentView.swift */; };
 		CFA33A5F29D3A0EC009993E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA33A5E29D3A0EC009993E6 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF5F1EC429DBBF5C00DBD005 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		CF5F1EC729DBC47100DBD005 /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CF5F1EC929DBC4EE00DBD005 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CFA33A5729D3A0EB009993E6 /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA33A5A29D3A0EB009993E6 /* ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderApp.swift; sourceTree = "<group>"; };
 		CFA33A5C29D3A0EB009993E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF5F1EC629DBC45000DBD005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F1EC729DBC47100DBD005 /* MyList+CoreDataClass.swift */,
+				CF5F1EC929DBC4EE00DBD005 /* MyList+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CFA33A4E29D3A0EB009993E6 = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +68,13 @@
 		CFA33A5929D3A0EB009993E6 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				CF5F1EC629DBC45000DBD005 /* Models */,
 				CFA33A6829D3A791009993E6 /* Providers */,
 				CFA33A5A29D3A0EB009993E6 /* ReminderApp.swift */,
 				CFA33A5C29D3A0EB009993E6 /* ContentView.swift */,
 				CFA33A5E29D3A0EC009993E6 /* Assets.xcassets */,
 				CFA33A6029D3A0EC009993E6 /* Preview Content */,
+				CF5F1EC329DBBF5C00DBD005 /* ReminderModel.xcdatamodeld */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -149,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA33A5D29D3A0EB009993E6 /* ContentView.swift in Sources */,
+				CF5F1EC529DBBF5C00DBD005 /* ReminderModel.xcdatamodeld in Sources */,
 				CFA33A5B29D3A0EB009993E6 /* ReminderApp.swift in Sources */,
+				CF5F1ECA29DBC4EE00DBD005 /* MyList+CoreDataProperties.swift in Sources */,
+				CF5F1EC829DBC47100DBD005 /* MyList+CoreDataClass.swift in Sources */,
 				CFA33A6A29D3A7AD009993E6 /* CoreDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF5F1EC329DBBF5C00DBD005 /* ReminderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF5F1EC429DBBF5C00DBD005 /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = CF5F1EC429DBBF5C00DBD005 /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CFA33A4F29D3A0EB009993E6 /* Project object */;
 }

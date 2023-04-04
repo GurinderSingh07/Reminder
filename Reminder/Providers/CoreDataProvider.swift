@@ -10,7 +10,7 @@ import CoreData
 
 class CoreDataProvider{
     
-    //Create a singleton to make sure a persistent container is created only once in a memory as we need it in every file.
+    //Create a singleton to make sure a persistent container is created only once in a memory as we need throughout the project.
     static let shared = CoreDataProvider()
     
     //Initialise a core data stack in order to interact with core data.
